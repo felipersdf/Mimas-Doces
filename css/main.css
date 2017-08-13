@@ -39,6 +39,11 @@ header{
 .menu-topo li a{
   text-decoration: none;
   color:white;
+  transition: 0.3s 0.1s ease-in-out;
+}
+.menu-topo li a:hover{
+  text-decoration: none;
+  color: #dabea6;
 }
 .menu-topo > img:nth-child(1){
   padding: 5px 0px 0px 0px;
@@ -48,10 +53,7 @@ header{
   padding: 25px 55px 0px 0px;
   font-weight: bold;
 }
-.menu-topo li a:hover{
-  text-decoration: none;
-  color: #dabea6;
-}
+
 /*--------------------------------CONTEÚDO - PÁGINA PRINCIPAL-------------------------------------*/
 .conteudo{
   width: 100%;

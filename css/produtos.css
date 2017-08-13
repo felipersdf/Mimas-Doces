@@ -40,6 +40,11 @@ header{
 .menu-topo li a{
   text-decoration: none;
   color:white;
+  transition: 0.3s 0.1s ease-in-out;
+}
+.menu-topo li a:hover{
+  text-decoration: none;
+  color: #dabea6;
 }
 .menu-topo > img:nth-child(1){
   padding: 5px 0px 0px 0px;
@@ -49,10 +54,7 @@ header{
   padding: 25px 55px 0px 0px;
   font-weight: bold;
 }
-.menu-topo li a:hover{
-  text-decoration: none;
-  color: #dabea6;
-}
+
 
 .conteudo-produto{
   width: 100%;
@@ -90,14 +92,14 @@ header{
     border-top: 2px solid;
     border-bottom: 2px solid;
     padding: 10px;
+    transition: 0.2s 0.2s ease-in-out;
+}
+.produto p:hover{
+  border-color: #1ab7ac;
 }
 /*  <!----Footer-----> */
-footer{
-  margin-top: 20px;
-  color: #dabea6;
-}
+
 .conteudo-footer{
-  background-color: black;
   font-size: 1em;
   margin: 0;
   padding: 0;
