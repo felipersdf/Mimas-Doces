@@ -77,6 +77,8 @@ h1 {
   color: #d56073;
   font-size: 3.5em;
   font-weight: lighter;
+  margin-bottom: 0;
+  padding: 0;
 }
 .conteudo-produto a{
   text-decoration: none;
@@ -115,7 +117,6 @@ h1 {
   border-color: #1ab7ac;
 }
 /*  <!----Footer-----> */
-
 .conteudo-footer, a{
   font-size: 1em;
   margin: 0;
