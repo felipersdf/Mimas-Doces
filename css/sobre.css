@@ -26,7 +26,7 @@ body{
   font-size: 1.5em;
 }
 #img-logo{
-  padding: 0;
+  padding: 5px 0px;
 }
 header{
   margin: 0;
@@ -57,7 +57,7 @@ header{
 }
 .menu-itens {
   float: right;
-  padding: 20px 55px 0px 0px;
+  padding: 25px 55px 0px 0px;
   font-weight: bold;
   text-align: center;
 }
