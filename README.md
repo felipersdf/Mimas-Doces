@@ -14,3 +14,5 @@ Sonho Doce - http://www.sonhodoce.com/
 
 ## Screenshots
 
+Página Inicial
+![Pagina Inicial](screenshots/inicio.png)
