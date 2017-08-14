@@ -11,13 +11,22 @@ body{
   margin: 0;
   padding: 0;
 }
-/*---------------------------------MENU - PÁGINA PRINCIPAL--------------------------------------------*/
+/*---------------------------------MENU - TOPO--------------------------------------------*/
 #topo{
   background-image: url("../img/bg-topo.png");
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
   height:700px;
+}
+#topo a{
+  text-decoration: none;
+}
+#icon{
+  font-size: 1.5em;
+}
+#img-logo{
+  padding: 5px 0px;
 }
 header{
   margin: 0;
@@ -35,6 +44,7 @@ header{
   display: inline-block;
   padding: 3px;
   padding: 5px 10px 0px 10px;
+  text-align: center;
 }
 .menu-topo li a{
   text-decoration: none;
@@ -45,13 +55,11 @@ header{
   text-decoration: none;
   color: #dabea6;
 }
-.menu-topo > img:nth-child(1){
-  padding: 5px 0px 0px 0px;
-}
 .menu-itens {
   float: right;
-  padding: 25px 55px 0px 0px;
+  padding: 20px 55px 0px 0px;
   font-weight: bold;
+  text-align: center;
 }
 
 /*--------------------------------CONTEÚDO - PÁGINA PRINCIPAL-------------------------------------*/

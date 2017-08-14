@@ -1,24 +1,32 @@
 @font-face {
-    font-family: 'Watermelon';
-    src: url("fonts/Watermelon Script Demo.tff");
+    font-family: "Watermelon";
+    src: local('Watermelon Script Demo'), url("./fonts/Watermelon Script Demo.tff");
 }
 @font-face {
-    font-family: 'Gotham';
-    src: url("fonts/Gotham-Light(1).tff");
+    font-family: "Gotham";
+    src: local('Gotham-Light(1)'), url("./fonts/Gotham-Light(1).tff") format('truetype');;
 }
 body{
   font-family: "Gotham", sans-serif;
   margin: 0;
   padding: 0;
-  bottom: auto;
 }
-/*---------------------------------MENU - PÁGINA PRINCIPAL--------------------------------------------*/
+/*---------------------------------MENU - TOPO--------------------------------------------*/
 #topo{
-  background-image:url("img/bg-topo.png");
+  background-image: url("../img/bg-topo.png");
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
   height:700px;
+}
+#topo a{
+  text-decoration: none;
+}
+#icon{
+  font-size: 1.5em;
+}
+#img-logo{
+  padding: 5px 0px;
 }
 header{
   margin: 0;
@@ -36,6 +44,7 @@ header{
   display: inline-block;
   padding: 3px;
   padding: 5px 10px 0px 10px;
+  text-align: center;
 }
 .menu-topo li a{
   text-decoration: none;
@@ -46,16 +55,17 @@ header{
   text-decoration: none;
   color: #dabea6;
 }
-.menu-topo > img:nth-child(1){
-  padding: 5px 0px 0px 0px;
-}
 .menu-itens {
   float: right;
-  padding: 25px 55px 0px 0px;
+  padding: 20px 55px 0px 0px;
   font-weight: bold;
+  text-align: center;
 }
 
-
+h1 {
+  text-decoration: none;
+}
+/*---------------------------------CONTEÚDO - PÁGINA PRODUTOS--------------------------------------------*/
 .conteudo-produto{
   width: 100%;
   height: auto;
@@ -66,6 +76,9 @@ header{
   font-family: "Watermelon Script Demo", cursive;
   color: #d56073;
   font-size: 3.5em;
+}
+.conteudo-produto a{
+  text-decoration: none;
 }
 .conteudo-produto p{
   margin: 2px;
@@ -94,17 +107,22 @@ header{
     padding: 10px;
     transition: 0.2s 0.2s ease-in-out;
 }
+.produto a{
+  text-decoration: none;
+}
 .produto p:hover{
   border-color: #1ab7ac;
 }
 /*  <!----Footer-----> */
 
-.conteudo-footer{
+.conteudo-footer, a{
   font-size: 1em;
   margin: 0;
   padding: 0;
   text-align: center;
   font-weight: 500;
+  text-decoration: none;
+  color: #d56073;
 }
 .conteudo-footer p{
   margin: 0;
