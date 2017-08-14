@@ -1,4 +1,4 @@
-# Mima's Doces 
+# Mima's Doces
 
 ## Descrição
 Projeto da disciplina Linguagem de Marcação 2017.1
@@ -17,9 +17,8 @@ Sonho Doce - http://www.sonhodoce.com/
 <b>Página Inicial</b>
 ![Pagina Inicial](screenshots/inicio.png)
 
-P. Produtos
+<b>P. Produtos</b>
 
-P. Sobre
+<b>P. Sobre</b>
 
-P. Contato
-
+<b>P. Contato</b>
