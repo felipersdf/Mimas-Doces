@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Gotham";
-    src: local('Gotham-Light(1)'), url("fonts/Gotham-Light(1).tff"), format('truetype');
+    src: local('Gotham-Light(1)'), url("fonts/Gotham-Light(1).ttf"), format('truetype');
 }
 body{
   font-family: "Gotham", sans-serif;
