@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Watermelon";
+    font-family: 'Watermelon';
     src: url('fonts/Watermelon Script Demo.tff');
 }
 @font-face {
@@ -70,7 +70,8 @@ header{
   height: auto;
 }
 #slogan {
-  font-family: "Watermelon Script Demo", cursive;
+    font-family: 'Pacifico', cursive;
+  /* font-family: "Watermelon Script Demo", cursive; */
   color: white;
   font-size: 5em;
   text-align: center;
