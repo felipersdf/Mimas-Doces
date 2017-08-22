@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Watermelon";
-    src: url(fonts/Watermelon Script Demo.tff);
+    font-family: "Watermelon Script Demo";
+    src: url(Watermelon Script Demo.tff), format(truetype);
 }
 @font-face {
-    font-family: "Gotham";
-    src: url(fonts/Gotham-Light(1).tff);
+    font-family: "Gotham-Light";
+    src: url(Gotham-Light.tff), format(truetype);
 }
 body{
   font-family: "Gotham", sans-serif;
