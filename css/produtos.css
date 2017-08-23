@@ -118,8 +118,26 @@ h1 {
 .produto p:hover{
   border-color: #1ab7ac;
 }
-
-/*  <!----Footer-----> */
+@media screen and (max-width: 480px) {
+    .container-produto {
+        flex-direction: column;
+    }
+    .container-produto .produto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-produto p{
+      order: -1;
+    }
+    .container-produto img{
+      order: 1;
+    }
+    .imagem-produto{
+      width: 70%;
+    }
+}
+/*<!----Footer-----> */
 footer{
   color: #dabea6;
   width: 100%;
