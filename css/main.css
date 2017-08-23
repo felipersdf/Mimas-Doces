@@ -64,7 +64,6 @@ header{
   font-weight: bold;
   text-align: center;
 }
-
 /*--------------------------------CONTEÚDO - PÁGINA PRINCIPAL-------------------------------------*/
 .conteudo{
   width: 100%;
@@ -91,6 +90,10 @@ footer{
   padding: 0;
   text-align: center;
   font-weight: 500;
+}
+a{
+  text-decoration: none;
+  color: #d56073;
 }
 .conteudo-footer p{
   margin: 0;

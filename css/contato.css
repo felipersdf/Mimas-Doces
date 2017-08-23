@@ -142,6 +142,10 @@ footer{
   color: #dabea6;
   width: 100%;
 }
+a{
+  text-decoration: none;
+  color: #d56073;
+}
 .conteudo-footer{
   font-size: 1em;
   margin-left: 0;
