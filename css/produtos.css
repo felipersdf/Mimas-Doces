@@ -124,6 +124,17 @@ h1 {
   border-color: #1ab7ac;
 }
 @media screen and (max-width: 480px) {
+   .conteudo-produto h1{
+     font-family: "Watermelon Script Demo", cursive;
+     color: #d56073;
+     font-size: 2.5em;
+     font-weight: lighter;
+     margin-bottom: 0;
+     padding: 0;
+   }
+   .linha{
+     width: 70%;
+   }
     .container-produto {
         flex-direction: column;
     }
