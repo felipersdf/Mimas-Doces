@@ -103,6 +103,11 @@ h1 {
   border-radius: 10%;
   border: 2px groove;
 }
+.imagem-instagram{
+  margin-top: 10px;
+  border-radius: 5%;
+  border-width: medium;
+}
 .produto{
   padding: 10px;
 }
