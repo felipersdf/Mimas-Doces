@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Watermelon Script Demo";
-    src: url(Watermelon Script Demo.tff), format(truetype);
+    font-family: 'Watermelon Script Demo';
+    src: url(../fonts/Watermelon-Script-Demo.tff);
 }
 @font-face {
-    font-family: "Gotham-Light";
-    src: url(Gotham-Light.tff), format(truetype);
+    font-family: 'Gotham-Light';
+    src: url(../fonts/Gotham-Light.tff);
 }
 body{
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -77,11 +77,11 @@ h1 {
   width: 100%;
   height: auto;
   text-align: center;
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
 }
 /*Estilizando o título (h1) da pagina*/
 .conteudo-produto h1{
-  font-family: "Watermelon Script Demo", cursive;
+  font-family: 'Watermelon Script Demo', cursive;
   color: #d56073;
   font-size: 3.5em;
   font-weight: lighter;
@@ -143,7 +143,7 @@ h1 {
 /*Responsividade*/
 @media screen and (max-width: 480px) {
    .conteudo-produto h1{
-     font-family: "Watermelon Script Demo", cursive;
+     font-family: 'Watermelon Script Demo', cursive;
      color: #d56073;
      font-size: 2.5em;
      font-weight: lighter;

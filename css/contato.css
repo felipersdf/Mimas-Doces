@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Watermelon Script Demo";
-    src: url(Watermelon Script Demo.ttf), format(truetype);
+    font-family: 'Watermelon Script Demo';
+    src: url(../fonts/Watermelon-Script-Demo.tff);
 }
 @font-face {
-    font-family: "Gotham-Light";
-    src: url(Gotham-Light.ttf), format(truetype);
+    font-family: 'Gotham-Light';
+    src: url(../fonts/Gotham-Light.tff);
 }
 body{
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -71,7 +71,7 @@ header{
 /*---------------------------------------------------------------------------------------------------- */
 /*Estilizando o título da página*/
 h1{
-  font-family: "Watermelon Script Demo", cursive;
+  font-family: 'Watermelon Script Demo', cursive;
   font-weight: lighter;
   color: #d56073;
   font-size: 3.5em;

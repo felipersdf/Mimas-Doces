@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Watermelon Script Demo";
-    src: url(Watermelon Script Demo.tff), format(truetype);
+    font-family: 'Watermelon Script Demo';
+    src: url(../fonts/Watermelon-Script-Demo.tff);
 }
 @font-face {
-    font-family: "Gotham-Light";
-    src: url(Gotham-Light.tff), format(truetype);
+    font-family: 'Gotham-Light';
+    src: url(../fonts/Gotham-Light.tff);
 }
 body{
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -83,7 +83,7 @@ img{
   margin: 0;
 }
 h1{
-    font-family: "Watermelon Script Demo", cursive;
+    font-family: 'Watermelon Script Demo', cursive;
     font-weight: lighter;
     font-size: 4em;
     text-align: center;
