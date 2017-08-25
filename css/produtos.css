@@ -53,10 +53,12 @@ header{
   color:white;
   transition: 0.3s 0.1s ease-in-out;
 }
+/*Adicionando animação quando o mouse passar em cima do menu*/
 .menu-topo li a:hover{
-  text-decoration: none;
-  color: #dabea6;
+  text-decoration: underline;
+  color: #d56073;
 }
+/*Posicionando os itens do menu*/
 .menu-itens {
   float: right;
   padding: 17px 55px 0px 0px;
@@ -73,6 +75,7 @@ h1 {
   height: auto;
   text-align: center;
   font-family: "Gotham", sans-serif;
+
 }
 .conteudo-produto h1{
   font-family: "Watermelon Script Demo", cursive;
@@ -104,9 +107,15 @@ h1 {
   border: 2px groove;
 }
 .imagem-instagram{
+  height: 100%;
   margin-top: 10px;
-  border-radius: 5%;
+  border-radius: 2%;
   border-width: medium;
+  background-color:#4fd8e8;
+  background-image: linear-gradient( 45deg, red, green, yellow, blue );
+}
+.imagem-instagram:hover {
+  background-image: linear-gradient( to right, red, green, yellow, blue );
 }
 .produto{
   padding: 10px;
@@ -121,8 +130,9 @@ h1 {
   text-decoration: none;
 }
 .produto p:hover{
-  border-color: #1ab7ac;
+  color: #1ab7ac;
 }
+/*Responsividade*/
 @media screen and (max-width: 480px) {
    .conteudo-produto h1{
      font-family: "Watermelon Script Demo", cursive;

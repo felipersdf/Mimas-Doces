@@ -54,10 +54,12 @@ header{
   color:white;
   transition: 0.3s 0.1s ease-in-out;
 }
+/*Adicionando animação quando o mouse passar em cima do menu*/
 .menu-topo li a:hover{
-  text-decoration: none;
-  color: #dabea6;
+  text-decoration: underline;
+  color: #d56073;
 }
+/*Posicionand os itens do menu*/
 .menu-itens {
   float: right;
   padding: 17px 55px 0px 0px;
@@ -100,24 +102,28 @@ span{
   color: #1ca09e;
 }
 /* Responsividade do conteúdo - sobre */
-@media all and (max-width: 500x){
+@media screen and (max-width: 500px){
   .conteudo-sobre{
-    flex-wrap:wrap;
+    flex-direction: column;
     margin-top: 40px;
-    justify-content: center;
   }
-  #bolinho, #linha{
-    width:80%;
-    margin-left: 50px;
+  .text-sobre {
+    padding: 0;
+    margin-left: 200px;
+  }
 
   }
-}
+
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------FOOTER-------------------------------------*/
 footer{
   color: #dabea6;
   width: 100%;
+}
+a{
+  text-decoration: none;
+  color: #d56073;
 }
 .conteudo-footer{
   font-size: 1em;

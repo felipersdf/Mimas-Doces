@@ -54,9 +54,10 @@ header{
   transition: 0.3s 0.1s ease-in-out;
 }
 
+/*Adicionando animação quando o mouse passar em cima do menu*/
 .menu-topo li a:hover{
-  text-decoration: none;
-  color: #dabea6;
+  text-decoration: underline;
+  color: #d56073;
 }
 .menu-itens {
   float: right;

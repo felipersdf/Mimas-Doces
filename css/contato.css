@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Watermelon Script Demo";
-    src: url(Watermelon Script Demo.tff), format(truetype);
+    src: url(Watermelon Script Demo.ttf), format(truetype);
 }
 @font-face {
     font-family: "Gotham-Light";
-    src: url(Gotham-Light.tff), format(truetype);
+    src: url(Gotham-Light.ttf), format(truetype);
 }
 body{
   font-family: "Gotham", sans-serif;
@@ -14,6 +14,7 @@ body{
   height: 100%;
 }
 /*---------------------------------MENU - TOPO--------------------------------------------*/
+/*Estilizando o menu*/
 #topo{
   background-image: url("../img/bg-topo.png");
   background-repeat: no-repeat;
@@ -50,13 +51,15 @@ header{
 }
 .menu-topo li a{
   text-decoration: none;
-  color:white;
+  color: white;
   transition: 0.3s 0.1s ease-in-out;
 }
+/*Adicionando animação quando o mouse passar em cima do menu*/
 .menu-topo li a:hover{
-  text-decoration: none;
-  color: #dabea6;
+  text-decoration: underline;
+  color: #d56073;
 }
+/*Posicionando os itens do menu*/
 .menu-itens {
   float: right;
   padding: 17px 55px 0px 0px;
@@ -135,6 +138,34 @@ input[name=mensagem]{
 .button input[type=submit]:hover{
   background-color:#1ab7ac ;
   border-color: #dd8592;
+}
+/*Responsividade para mobile*/
+@media screen and (max-width: 500px){
+  #contato-image {
+    width: 80%;
+    margin-left: 40px;
+  }
+  .container-contato{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+}
+/*Responsividade para tablet*/
+@media screen and (max-width: 800px){
+  #contato-image {
+    width: 80%;
+    margin-left: 100px;
+  }
+  .container-contato{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+.contato-conteudo p{
+    text-align: center;
+    font-size: 1.5em;
+  }
 }
 /*---------------------------------------------------------------------------------------------------- */
 /*---------------------------------FOOTER-------------------------------------*/
