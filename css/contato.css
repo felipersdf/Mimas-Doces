@@ -59,7 +59,6 @@ header{
 }
 /*Adicionando animação do 'hover'*/
 .menu-topo li a:hover{
-  text-decoration: underline;
   color: #d56073;
 }
 /*Posicionando os itens do menu*/

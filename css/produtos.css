@@ -57,9 +57,8 @@ header{
   color:white;
   transition: 0.3s 0.1s ease-in-out;
 }
-/*Adicionando animação quando o mouse passar em cima do menu*/
+/*Adicionando animação do 'hover'*/
 .menu-topo li a:hover{
-  text-decoration: underline;
   color: #d56073;
 }
 /*Posicionando os itens do menu*/
@@ -117,12 +116,12 @@ h1 {
   margin-top: 10px;
   border-radius: 2%;
   border-width: medium;
-  background-color:#4fd8e8;
-  background-image: linear-gradient( 45deg, red, green, yellow, blue );
-}
+  /*background-color:#4fd8e8;*/
+  /*background-image: linear-gradient( 45deg, red, green, yellow, blue );*/
+/*}
 .imagem-instagram:hover {
   background-image: linear-gradient( to right, red, green, yellow, blue );
-}
+}*/
 /*----------------------------------------------------------------------------*/
 /*Estilizando os textos dos produtos*/
 .produto{
