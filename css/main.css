@@ -30,6 +30,7 @@ body{
 #img-logo{
   padding: 5px 0px;
 }
+/*Estilizando o header do menu*/
 header{
   margin: 0;
   padding: 0;
@@ -42,19 +43,21 @@ header{
   opacity: 0.6;
   height: 75px;
 }
+/*Alinhando os itens da lista do menu*/
 .menu-topo li{
   display: inline-block;
   padding: 3px;
   padding: 5px 10px 0px 10px;
   text-align: center;
 }
+/*Estilizando os itens do menu*/
 .menu-topo li a{
   text-decoration: none;
   color:white;
   transition: 0.3s 0.1s ease-in-out;
 }
 
-/*Adicionando animação quando o mouse passar em cima do menu*/
+/*Adicionando animação do 'hover'*/
 .menu-topo li a:hover{
   text-decoration: underline;
   color: #d56073;

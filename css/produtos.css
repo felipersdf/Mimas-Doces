@@ -14,6 +14,7 @@ body{
   height: 100%;
 }
 /*---------------------------------MENU - TOPO--------------------------------------------*/
+/*Adicionando imagem de fundo*/
 #topo{
   background-image: url("../img/bg-topo.png");
   background-repeat: no-repeat;
@@ -30,6 +31,7 @@ body{
 #img-logo{
   padding: 5px 0px;
 }
+/*Estilizando o header do menu*/
 header{
   margin: 0;
   padding: 0;
@@ -42,12 +44,14 @@ header{
   opacity: 0.6;
   height: 75px;
 }
+/*Alinhando os itens da lista do menu*/
 .menu-topo li{
   display: inline-block;
   padding: 3px;
   padding: 5px 10px 0px 10px;
   text-align: center;
 }
+/*Estilizando os itens do menu*/
 .menu-topo li a{
   text-decoration: none;
   color:white;
@@ -75,8 +79,8 @@ h1 {
   height: auto;
   text-align: center;
   font-family: "Gotham", sans-serif;
-
 }
+/*Estilizando o título (h1) da pagina*/
 .conteudo-produto h1{
   font-family: "Watermelon Script Demo", cursive;
   color: #d56073;
@@ -88,6 +92,7 @@ h1 {
 .conteudo-produto a{
   text-decoration: none;
 }
+/*Estilizando os textos das imagens*/
 .conteudo-produto p{
   margin: 2px;
   padding: 20px;
@@ -106,6 +111,7 @@ h1 {
   border-radius: 10%;
   border: 2px groove;
 }
+/*Adicionando e estilizando imagem de divulgação do instagram*/
 .imagem-instagram{
   height: 100%;
   margin-top: 10px;
@@ -117,6 +123,8 @@ h1 {
 .imagem-instagram:hover {
   background-image: linear-gradient( to right, red, green, yellow, blue );
 }
+/*----------------------------------------------------------------------------*/
+/*Estilizando os textos dos produtos*/
 .produto{
   padding: 10px;
 }
@@ -132,6 +140,7 @@ h1 {
 .produto p:hover{
   color: #1ab7ac;
 }
+/*----------------------------------------------*/
 /*Responsividade*/
 @media screen and (max-width: 480px) {
    .conteudo-produto h1{

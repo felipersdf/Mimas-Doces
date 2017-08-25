@@ -67,7 +67,7 @@ header{
   text-align: center;
 }
 /*--------------------------------CONTEÚDO - PÁGINA SOBRE-------------------------------------*/
-
+Alinhando os itens do container
 .conteudo-sobre{
   display: flex;
   align-items: center;

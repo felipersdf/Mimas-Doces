@@ -14,7 +14,7 @@ body{
   height: 100%;
 }
 /*---------------------------------MENU - TOPO--------------------------------------------*/
-/*Estilizando o menu*/
+/*Adicionando imagem de fundo*/
 #topo{
   background-image: url("../img/bg-topo.png");
   background-repeat: no-repeat;
@@ -31,6 +31,7 @@ body{
 #img-logo{
   padding: 5px 0px;
 }
+/*Estilizando o header do menu*/
 header{
   margin: 0;
   padding: 0;
@@ -43,18 +44,20 @@ header{
   opacity: 0.6;
   height: 75px;
 }
+/*Alinhando os itens do menu*/
 .menu-topo li{
   display: inline-block;
   padding: 3px;
   padding: 5px 10px 0px 10px;
   text-align: center;
 }
+/*Estilizando os itens do menu*/
 .menu-topo li a{
   text-decoration: none;
   color: white;
   transition: 0.3s 0.1s ease-in-out;
 }
-/*Adicionando animação quando o mouse passar em cima do menu*/
+/*Adicionando animação do 'hover'*/
 .menu-topo li a:hover{
   text-decoration: underline;
   color: #d56073;
@@ -67,6 +70,7 @@ header{
   text-align: center;
 }
 /*---------------------------------------------------------------------------------------------------- */
+/*Estilizando o título da página*/
 h1{
   font-family: "Watermelon Script Demo", cursive;
   font-weight: lighter;
@@ -85,22 +89,26 @@ p{
 body > main > section > h1{
   margin-bottom: 0;
 }
+/*Alinhando os itens da página em linha com flex*/
 .container-contato{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   }
+/*Adicionando borda para a imagem sobre.png*/
 section img{
     border-radius: 6%;
   }
 .contato-form{
   flex-grow: 0.5;
 }
+/*Alinhando os itens do formulário em coluna*/
 .form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+/*Estilizando a borda dos campos de texto do formulário*/
 .campo input{
   width: 88%;
   padding: 10px 10px;
@@ -109,19 +117,25 @@ section img{
   border-style: solid;
   border-width: medium;
 }
+/*Aumentando a caixa de texto da área de mensagem do formulário*/
 input[name=mensagem]{
   height: 50px;
 }
+/*Estilizando o placeholder do formulário*/
 ::-webkit-input-placeholder {
    color: #dd8592;
    margin: 0px;
 }
+/*Estilizando o texto do botão*/
 #button-text{
   color: #dd8592;
 }
 #button-text:hover{
   color: white;
 }
+/*------------------------------------*/
+
+/*Alinhando o botão 'Enviar'*/
 .button input{
   width: 30%;
   height: 50px;
@@ -135,6 +149,7 @@ input[name=mensagem]{
   border-width: medium;
   float: right;
 }
+/*Estilizando o 'hover' do botão enviar*/
 .button input[type=submit]:hover{
   background-color:#1ab7ac ;
   border-color: #dd8592;
