@@ -99,8 +99,19 @@ span{
   font-weight: bold;
   color: #1ca09e;
 }
+/* Responsividade do conteúdo - sobre */
+@media all and (max-width: 500x){
+  .conteudo-sobre{
+    flex-wrap:wrap;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  #bolinho, #linha{
+    width:80%;
+    margin-left: 50px;
 
-
+  }
+}
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------FOOTER-------------------------------------*/
