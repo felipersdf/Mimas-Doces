@@ -18,7 +18,7 @@ Baked by Yael - https://bakedbyyael.com/
 <b>Página Inicial</b>
 ![Pagina Inicial](screenshots/inicio.png)
 
-<b>P. Produtos</b
+<b>P. Produtos</b>
  ![Pagina Produtos](screenshots/produtos.png)
 
 <b>P. Sobre</b>
