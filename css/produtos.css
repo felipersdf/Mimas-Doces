@@ -7,7 +7,7 @@
     src: url(../fonts/Gotham-Light.tff);
 }
 body{
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham-Light', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -77,7 +77,7 @@ h1 {
   width: 100%;
   height: auto;
   text-align: center;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham-Light', sans-serif;
 }
 /*Estilizando o título (h1) da pagina*/
 .conteudo-produto h1{
