@@ -57,8 +57,9 @@ header{
   color:white;
   transition: 0.3s 0.1s ease-in-out;
 }
-/*Adicionando animação do 'hover'*/
+/*Adicionando animação quando o mouse passar em cima do menu*/
 .menu-topo li a:hover{
+  text-decoration: underline;
   color: #d56073;
 }
 /*Posicionando os itens do menu*/
