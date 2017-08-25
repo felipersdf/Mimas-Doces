@@ -43,6 +43,7 @@ header{
   opacity: 0.6;
   height: 75px;
 }
+/*Alinhando os itens da lista do menu*/
 .menu-topo li{
   display: inline-block;
   padding: 3px;
@@ -68,13 +69,12 @@ header{
 }
 /*--------------------------------CONTEÚDO - PÁGINA SOBRE-------------------------------------*/
 /*Alinhando os itens do container*/
-.conteudo-sobre{
+.conteudo-sobre {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
-
 img{
     margin: 10px 0px;
     padding: 10px 0px 10px 0px;
@@ -114,7 +114,6 @@ span{
   }
 
   }*/
-
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------FOOTER-------------------------------------*/
