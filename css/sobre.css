@@ -70,6 +70,7 @@ header{
 /*Alinhando os itens do container*/
 .conteudo-sobre{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
