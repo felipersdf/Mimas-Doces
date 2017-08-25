@@ -8,7 +8,8 @@ O objetivo da construção desse site seria para ajudar a impulsionar uma loja d
 
 ## Inspiração
 Inspirações para o site: <br>
-Sonho Doce - http://www.sonhodoce.com/
+Sonho Doce - http://www.sonhodoce.com/ <br>
+Baked by Yael - https://bakedbyyael.com/
 
 ## Protótipos
 
@@ -18,7 +19,10 @@ Sonho Doce - http://www.sonhodoce.com/
 ![Pagina Inicial](screenshots/inicio.png)
 
 <b>P. Produtos</b>
+ ![Pagina Produtos](screenshots/produtos.png)
 
 <b>P. Sobre</b>
-
+ ![Pagina Sobre](screenshots/sobre.png)
+ 
 <b>P. Contato</b>
+ ![Pagina Contato](screenshots/contato.png)
