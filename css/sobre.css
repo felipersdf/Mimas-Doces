@@ -103,7 +103,7 @@ span{
   color: #1ca09e;
 }
 /* Responsividade do conteúdo - sobre */
-@media screen and (max-width: 500px){
+/*@media screen and (max-width: 500px){
   .conteudo-sobre{
     flex-direction: column;
     margin-top: 40px;
@@ -113,7 +113,7 @@ span{
     margin-left: 200px;
   }
 
-  }
+  }*/
 
 
 /*---------------------------------------------------------------------------------*/
